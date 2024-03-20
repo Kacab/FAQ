@@ -1,0 +1,423 @@
+body {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.main {
+    width: 100%;
+    height: 900px;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.con {
+
+    height: 250px;
+    background-image: url(/pictures/background-pattern-desktop.svg);
+    background-size: cover;
+
+}
+
+
+
+
+.main .faq {
+    margin: auto;
+
+}
+
+.faq {
+    width: 52%;
+
+    background-color: white;
+    position: relative;
+    bottom: 150px;
+    border-radius: 10px;
+
+}
+
+.faqs {
+    width: 50%;
+
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+
+
+}
+
+.faqs h3 {
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.QA {
+    margin-bottom: 10px;
+    margin: 20px;
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 100px;
+
+
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.hidden {
+    display: none;
+}
+
+#white {
+    width: 100%;
+    height: 250px;
+    background-color: red;
+    display: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: hsl(292, 16%, 49%);
+
+    position: relative;
+    bottom: 21px;
+    left: 2px;
+    flex-wrap: wrap;
+
+    width: 70%;
+    margin: auto;
+
+
+}
+
+
+
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.show2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    bottom: 21px;
+    left: 35px;
+    color: hsl(292, 16%, 49%);
+    font-weight: lighter;
+    font-size: small;
+    width: 80%;
+    margin: auto;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.show3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    bottom: 21px;
+    left: 35px;
+    color: hsl(292, 16%, 49%);
+    font-size: small;
+    font-weight: lighter;
+    margin: auto;
+    width: 80%;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.show4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    bottom: 21px;
+    left: 1px;
+    color: hsl(292, 16%, 49%);
+    font-size: small;
+    font-weight: lighter;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:430px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main {
+        width: 100%;
+        height: 1300px;
+        background-color: hsl(275, 100%, 97%);
+    }
+
+    .con {
+        width: 100%;
+        height: 300px;
+        background-image: url(./pictures/background-pattern-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .main .faq {
+        margin: auto;
+
+    }
+
+    .faq {
+        width: 82%;
+
+        background-color: white;
+        position: relative;
+        bottom: 150px;
+        border-radius: 10px;
+
+    }
+
+    .faqs {
+        width: 50%;
+
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        position: relative;
+        top: 30px;
+
+
+    }
+
+    .faqs h3 {
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .QA {
+        margin-bottom: 10px;
+        margin: 20px;
+        font-family: "Work Sans", sans-serif;
+        padding-bottom: 100px;
+
+
+    }
+
+    .first {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    #white {
+        width: 100%;
+        height: 250px;
+        background-color: red;
+        display: none;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Work Sans", sans-serif;
+        font-size: small;
+        font-weight: lighter;
+        color: hsl(292, 16%, 49%);
+
+        position: relative;
+        bottom: 21px;
+        left: 15px;
+
+
+    }
+
+    .second {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+    .show2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Work Sans", sans-serif;
+        position: relative;
+        bottom: 21px;
+        left: 15px;
+        color: hsl(292, 16%, 49%);
+        font-weight: lighter;
+        font-size: small;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .show3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Work Sans", sans-serif;
+        position: relative;
+        bottom: 21px;
+        left: 15px;
+        color: hsl(292, 16%, 49%);
+        font-size: small;
+        font-weight: lighter;
+    }
+
+    .fourth {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .show4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Work Sans", sans-serif;
+        position: relative;
+        bottom: 21px;
+        left: 15px;
+        color: hsl(292, 16%, 49%);
+        font-size: small;
+        font-weight: lighter;
+
+    }
+
+}
